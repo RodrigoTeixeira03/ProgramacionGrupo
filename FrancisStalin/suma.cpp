@@ -1,5 +1,5 @@
 #include<iostream>
-using namespace st;
+using namespace std;//estaba st y le coloque std para que funcione
 int main()
 {
 	float A,B,C;
