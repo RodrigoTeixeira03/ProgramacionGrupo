@@ -1,11 +1,11 @@
 #include<iostream>
 using namespace std;
 int main() {
-float a,b,c,d ;
-cout<<"Ingrese tres numeros:";
-cin>>a>>b>>c ;
-d=a+b+c ;
-cout<<"La suma de los numeros es:";
-cout<<d ;
+float r,e,w,q ;
+cout<<"Ingrese tres numeros:"<<endl;
+cin>>r>>e>>w ;
+q=r+e+w ;
+cout<<"La suma de los numeros es:"<<endl;
+cout<<q<<endl;
 return 0;
 }
