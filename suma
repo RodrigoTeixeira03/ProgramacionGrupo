@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+int main () {
+       float L,M,N;
+       cout<<"
+ingrese 2 numeros L y M:";
+      cin>>L>>M;
+      C=L+M;
+      COUT<<" El resultado es:";
+      cout<<c:
+      return 0;
+}
