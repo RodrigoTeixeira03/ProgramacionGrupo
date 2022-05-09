@@ -7,8 +7,8 @@ int main() {
 /*Agregamos nuestras varibles de tipo decimal o flotante x and y*/
 float A,B;
 /*Le pedimos a el usuario que ingrese los valores de la varible*/
-cout<<"Ingrese A:" ; cin>>A;
-cout<<"Ingrese B:" ; cin>>B;
+cout<<"Ingrese el numero A:" ; cin>>A;
+cout<<"Ingrese el numero B:" ; cin>>B;
 /*Evaluamos la condiciones logicas*/
 if(A==B){
 cout<<"El valor de A="<<A<<":es igual a B="<<B<<endl;
@@ -16,9 +16,9 @@ cout<<"El valor de A="<<A<<":es igual a B="<<B<<endl;
 }else{
 /*volvemos a evaluar para identificar cual es mayor de dos numeros*/
 if(A<B)	{ 
-cout<<"El valor de A="<<A<<":ES MENOR A B="<<B<<endl;
+cout<<"El numero de A="<<A<<":es menor A B="<<B<<endl;
 }else{
-cout<<"El valor de B="<<B<<":ES MENOR A A="<<A<<endl;	
+cout<<"El numero de B="<<B<<":es menor A A="<<A<<endl;	
 } 
 }	
 return(0);	
