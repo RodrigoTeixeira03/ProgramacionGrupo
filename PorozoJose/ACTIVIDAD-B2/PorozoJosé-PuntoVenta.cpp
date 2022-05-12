@@ -29,4 +29,6 @@ int main()
   
   cout<<"valor final a pagar es de:";
   cout<<Vf<<endl;
+  
+  return 0
 }
