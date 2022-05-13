@@ -1,41 +1,57 @@
-/*4.- Diagrama de flujo y código en c++, de un programa 
-que calcula de edad de una persona, el programa debe 
-permitir ingresar la fecha actual , la fecha de nacimiento 
-y mostrar cuantos años, meses y díás tiene la persona.*/
+//================================================
+//==> Nombre del programa: Calcular la edad
+//==> Archivo : PorozoJose-laedad.cpp
+//==>Autor: Porozo Jose
+//==>Fecha de elaboración: 2022-04-01
+//==>Fecha ultima actualización: 2022-05-12
+//=================================================
 #include<iostream>
 using namespace std;
 int main()
 {
-int ap,mp,dp,an,mn,dn,a,m,d;
+  int PJ_ap,PJ_mp,PJ_dp,PJ_an,PJ_mn,PJ_dn,PJ_a,PJ_m,PJ_d;
 
-/*Este codigo permite calcular la edad*/
 
-cout<<"Ingrese la fecha actual (aaaa_mm_dd): "; 
-cin>>ap>>mp>>dp;
-cout<<"Ingrese la fecha de nacimiento (aaaa_mm_dd): "; 
-cin>>an>>mn>>dn;
-if(dp>dn)
-{
-	d=dp-dn;
-}else{
-	dp=dp+30;
-	mp=mp-1;
-	d=dp-dn;
-}
-if(mp>mn)
-{
-	m=mp-mn;
-}else{
-	mp=mp+12;
-	ap=ap-1;
-	m=mp-mn;
-}
+    cout<<"Ingrese la fecha actual (aaaa_mm_dd): "; 
 
-a=ap-an;
+    cin>>PJ_ap>>PJ_mp>>PJ_dp;
 
-/*fecha en dias años y meses*/
-cout<<"La persona tiene :"<<a<<" años "<<m<< " meses "<<d<< " dias "<<endl;
+    cout<<"Ingrese la fecha de nacimiento (aaaa_mm_dd): "; 
 
+cin>>PJ_an>>PJ_mn>>PJ_dn;
+             if(PJ_dp>PJ_dn)
+             {
+	                PJ_d=PJ_dp-PJ_dn;
+             }else{
+             	
+	            PJ_dp=PJ_dp+30;
+      	  
+	            PJ_mp=PJ_mp-1;
+	  
+	            PJ_d=PJ_dp-PJ_dn;
+                 }
+                   if(PJ_mp>PJ_mn)
+                    {
+                      PJ_m=PJ_mp-PJ_mn;
+                    }else{
+	                   PJ_mp=PJ_mp+12;
+	   
+	                     PJ_ap=PJ_ap-1;
+	    
+	                     PJ_m=PJ_mp-PJ_mn;
+                    }
+
+          PJ_a=PJ_ap-PJ_an;
+
+cout<<"La persona tiene :"<<PJ_a<<" años "<<PJ_m<< " meses "<<PJ_d<< " dias "<<endl;
+
+cout<<" //================================================\n";
+cout<<"//==> Nombre del programa: Calcular la edad\n";
+cout<<"//==> Archivo : PorozoJose-laedad.cpp\n";
+cout<<"//==>Autor: Porozo Jose\n";
+cout<<"//==>Fecha de elaboración: 2022-04-01\n";
+cout<<"//==>Fecha ultima actualización: 2022-05-12\n";
+cout<<"//=================================================\n";
 
 return 0;
 }

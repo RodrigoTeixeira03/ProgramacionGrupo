@@ -1,43 +1,69 @@
-/*5.- Diagrama de flujo y código en c++ de un programa 
-que cuente monedas, el programa permitirá ingresar varias 
-mondas de 3 denominaciones diferentes (10ctv, 25ctv,50ctv) 
-y presentara cuantas monedas de cada denominación se ingresaron, 
-cuanto es la cantidad en dinero de cada denominación; asi como 
-la cantidad de dinero total que se ingresaron.*/
+//================================================
+//==> Nombre del programa: Contador de Monedas
+//==> Archivo : PorozoJose-CuentaMonedad.cpp
+//==>Autor: Porozo Jose
+//==>Fecha de elaboración: 2022-04-01
+//==>Fecha ultima actualización: 2022-05-12
+//=================================================
 #include<iostream>
 using namespace std;
 
 int main()
 {
-int c,A=0,A1=0,A2=0,A3=0;
-float t,B=0,B1=0,B2=0,B3=0,D=0.10, D1=0.25, D2=0.50;
-cout<<"Ingrese la cantidad de monedas: "; cin>>c;
-do{
+   int PJ_c,PJ_A=0,PJ_A1=0,PJ_A2=0,PJ_A3=0;
+   
+   float PJ_t,PJ_B=0,PJ_B1=0,PJ_B2=0,PJ_B3=0,PJ_D=0.10, PJ_D1=0.25, PJ_D2=0.50;
+   
+   cout<<"Ingrese la cantidad de monedas: "; cin>>PJ_c;
+   
+  do{
 
-cout<<"Ingrese el valor  de la moneda t=";cin>>t;
-A=A+1;
-B=B+1;
-if(t==D){
-A1=A1+1;
-B1=B1+t;
-}
+    cout<<"Ingrese el tipo de la moneda t=";cin>>PJ_t;
+    
+    PJ_A=PJ_A+1;
+    
+    PJ_B=PJ_B+1;
+    
+    if(PJ_t==PJ_D){
+    	
+        PJ_A1=PJ_A1+1;
+        
+        PJ_B1=PJ_B1+PJ_t;
+    }
 
-if(t==D1){
-A2=A2+1;
-B2=B2+t;
-}
+      if(PJ_t==PJ_D1){
+      	
+          PJ_A2=PJ_A2+1;
+          
+          PJ_B2=PJ_B2+PJ_t;
+      }
 
 
-if(t==D2){
-A3=A3+1;
-B3=B3+t;
-}
-}while(A<c);
+       if(PJ_t==PJ_D2){
+       	
+          PJ_A3=PJ_A3+1;
+          
+          PJ_B3=PJ_B3+PJ_t;
+       }
+       
+  }while(PJ_A<PJ_c);
 
-cout<<"Usted cuenta con "<<A<<  " Moneda y un total de "<<A<<"  moneda"<<endl;
-cout<<"Usted cuenta con "<<A1<<  " Moneda de $0.10 que suman    "<<A1<<"  moneda"<<endl;
-cout<<"Usted cuenta con "<<A2<<  " Moneda de $0.25 que suman "<<A2<<"  moneda"<<endl;
-cout<<"Usted cuenta con "<<A3<<  " Moneda de $0.50 y un total de "<<A3<<"  moneda"<<endl;
+cout<<"Usted cuenta con "<<PJ_A<<  " Moneda y un total de "<<PJ_A<<"  moneda"<<endl;
+
+cout<<"Usted cuenta con "<<PJ_A1<<  " Moneda de $0.10 que suman    "<<PJ_A1<<"  moneda"<<endl;
+
+cout<<"Usted cuenta con "<<PJ_A2<<  " Moneda de $0.25 que suman "<<PJ_A2<<"  moneda"<<endl;
+
+cout<<"Usted cuenta con "<<PJ_A3<<  " Moneda de $0.50 y un total de "<<PJ_A3<<"  moneda"<<endl;
+
+cout<<" //================================================\n";
+cout<<"//==> Nombre del programa: Contador de Monedas\n";
+cout<<"//==> Archivo : PorozoJose-CuentaMonedad.cpp\n";
+cout<<"//==>Autor: Porozo Jose\n";
+cout<<"//==>Fecha de elaboración: 2022-04-01\n";
+cout<<"//==>Fecha ultima actualización: 2022-05-12\n";
+cout<<"//=================================================\n";
+
 
 
 return 0;
