@@ -53,4 +53,5 @@ int main()
   cout<<"//==>Fecha de elaboración: 2022-04-01\n";
   cout<<"//==>Fecha ultima actualización: 2022-05-12\n";
   cout<<"//=================================================\n";
+  return 0;
 }
