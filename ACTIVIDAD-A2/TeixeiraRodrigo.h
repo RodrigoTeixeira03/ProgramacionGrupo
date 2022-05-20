@@ -19,7 +19,7 @@ int TeixeiraRodrigoSumaN()
 		c=c+1;
 		a=a+x;
 	}while(c<n);
-	cout<<"la suma de "<<n<< "Numeros fue : "<<a<<endl;
+	cout<<"la suma de= "<<n<< "Numeros fue= : "<<a<<endl;
   return 0;
 
 }
@@ -27,15 +27,15 @@ int TeixeiraRodrigoSumaN()
 int TeixeiraRodrigoCompara(){
 	
 float TRA,TRB;
-	cout<<"INGRESE LOS VALORES A y B";
+	cout<<"INGRESE LOS VALORES A   B  \n";
 	cin>>TRA>>TRB;
 if(TRA==TRB){
-	cout<<"el valor"<<TRA<<"es igual a"<<TRB;
+	cout<<"el valor=" <<TRA<< "es igual a=" <<TRB;
 }else{
 	if(TRA<TRB){
-		cout<<"el valor"<<TRA<<"es menor que"<<TRB;
+		cout<<"el valor=" <<TRA<<"es menor que=" <<TRB;
 }else{
-	cout<<"el valor de"<<TRA<<"es mayor que"<<TRB;
+	cout<<"el valor de=" <<TRA<< "es mayor que=" <<TRB;
 }
 }
 cout<<endl<<"//================================================"<<endl;
@@ -179,27 +179,27 @@ int TeixeiraRodrigomenu()
 			cout<<" Ingrese una opcion : "; cin>>op; //la variable op siver para la oppcion a escoger
 			switch(op){
 				case 1:
-					//Suma de numeros.
+					system("clear");
 					cout<<"\n SUMA VARIOS NUMEROS  "<<endl;
 					 TeixeiraRodrigoSumaN();			
 					break;
 				case 2:
-					//.
+					system("clear");
 					cout<<"\nCOMPARA 2 NUIMEROS ";
 					TeixeiraRodrigoCompara();
 					break;
 				case 3:
-					//.
+				        system("clear");
 					cout<<"\n PUNTO DE VENTA ";
 					TeixeiraRodrigoPuntoVenta();
 					break;
 				case 4:
-					//.
+					system("clear");
 					cout<<"\n CALCULA LA EDAD ";
 					TeixeiraRodrigolaedad();
 					break;
 				case 5:
-					//.
+					system("clear");
 					cout<<"\n MAQUINA CUANTA MONEDAS ";
 					TeixeiraRodrigoCuentaMoneda();
 					break;
@@ -213,9 +213,13 @@ int TeixeiraRodrigomenu()
 
 				}
 				   flag=cin.ignore().get(); // Esta linea detiene la patalla hasta que el usuairo presione alguna tecla
-				   cout<<flag;
+				   
 	}while(op!=0);
 	
+	cout<<"================================================\n";
+	cout<<"                 Teixeira Rodrigo               \n";
+	cout<<" Gmail:rodrigo.texeira.gonzalez@utelvt.edu.ecu  \n";
+	cout<<"=================================================\n";
 
 	return(0);
 

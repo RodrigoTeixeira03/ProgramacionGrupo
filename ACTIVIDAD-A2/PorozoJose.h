@@ -45,27 +45,36 @@ int CONT=0,NU;
 int PorozoJoseCompara(){
 	
 float PJ_A, PJ_B;
+
     cout<<"Ingrese el numero A:" ; cin>>PJ_A;
+
     cout<<"Ingrese el numero B:" ; cin>>PJ_B;
     
      if(PJ_A==PJ_B){
+
            cout<<"El valor de A="<<PJ_A<<":es igual a B="<<PJ_B<<endl;
 	
      }else{
+
         if(PJ_A<PJ_B)	{ 
+
              cout<<"El numero de A="<<PJ_A<<":es menor A B="<<PJ_B<<endl;
         }else{
-           cout<<"El numero de B="<<PJ_B<<":es menor A A="<<PJ_A<<endl;	
-           cout<<" //================================================\n";
-           cout<<"//==> Nombre del programa: Comparador de dos numeros\n";
-           cout<<"//==> Archivo : PorozoJose-Compara.cpp\n";
-           cout<<"//==>Autor: Porozo Jose\n";
-           cout<<"//==>Fecha de elaboración: 2022-04-01\n";
-           cout<<"//==>Fecha ultima actualización: 2022-05-12\n";
-           cout<<"//=================================================\n";
+
+          cout<<"El numero de B="<<PJ_B<<" :es menor A A="<<PJ_A<<endl;
         } 
-     }	
-return(0);
+     }
+
+	
+ cout<<" //================================================\n";
+ cout<<"//==> Nombre del programa: Comparador de dos numeros\n";
+ cout<<"//==> Archivo : PorozoJose-Compara.cpp\n";
+ cout<<"//==>Autor: Porozo Jose\n";
+ cout<<"//==>Fecha de elaboración: 2022-04-01\n";
+ cout<<"//==>Fecha ultima actualización: 2022-05-12\n";
+ cout<<"//=================================================\n";
+
+exit(1);
 }
 
 int PorozoJosePuntoVenta()
@@ -234,7 +243,7 @@ int PorozoJosemenu()
 
 	do{
 			system("clear");
-			cout<<"**************PROGRAMAS DE JOSE LUIS**************"<<endl<<endl;
+			cout<<"**************PROGRAMAS DE POROZO JOSE**************"<<endl<<endl;
 			cout<<"1.- SUMA VARIOS NUMEROS \n";
 			cout<<"2.- COMPARA 2 NUMEROS.\n";
 			cout<<"3.- PUNTO DE VENTA \n"; 
@@ -244,28 +253,28 @@ int PorozoJosemenu()
 			cout<<" Ingrese una opcion : "; cin>>op; //la variable op siver para la oppcion a escoger
 			switch(op){
 				case 1:
-					//TRABAJO DEL INTEGRANTE 1.
+					system("clear");
 					cout<<"\n SUMA VARIOS NUMEROS  "<<endl;
 					 PorozoJoseSumaN();			
 					break;
 				case 2:
-					//TRABAJO DEL INTEGRANTE 2.
-					cout<<"\nCOMPARA 2 NUIMEROS ";
-				      PorozoJoseCompara();
+					system("clear");
+					cout<<"\nCOMPARA 2 NUMEROS ";
+				        PorozoJoseCompara();
 					break;
 				case 3:
-					//TRABAJO DEL INTEGRANTE 3.
+					system("clear");
 					cout<<"\n PUNTO DE VENTA ";
 					
 					 PorozoJosePuntoVenta();
 					break;
 				case 4:
-					//TRABAJO DEL INTEGRANTE 4.
+					system("clear");
 					cout<<"\n CALCULA LA EDAD ";
 					PorozoJoselaedad();
 					break;
 				case 5:
-					//TRABAJO DEL INTEGRANTE 4.
+					system("clear");
 					cout<<"\n MAQUINA CUANTA MONEDAS ";
 					PorozoJoseCuentaMoneda();
 					break;
@@ -279,9 +288,13 @@ int PorozoJosemenu()
 
 				}
 				   flag=cin.ignore().get(); // Esta linea detiene la patalla hasta que el usuairo presione alguna tecla
-				   cout<<flag;
+				   
 	}while(op!=0);
-	
+        
+        cout<<"=====================================================\n";
+        cout<<"                Porozo Caicedo                       \n";
+	cout<<"      Gmail: jose.porozo.caicedo@utelvt.edu.ec       \n";
+	cout<<"=====================================================\n";
 
 	return(0);
 

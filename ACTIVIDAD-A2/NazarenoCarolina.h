@@ -228,27 +228,27 @@ int NazarenoCarolinamenu()
 			cout<<" Ingrese una opcion : "; cin>>op; //la variable op siver para la oppcion a escoger
 			switch(op){
 				case 1:
-					//TRABAJO DEL INTEGRANTE 1.
+					system("clear");
 					cout<<"\n SUMA VARIOS NUMEROS  "<<endl;
 					 NazarenoCarolinaSumaN();			
 					break;
 				case 2:
-					//TRABAJO DEL INTEGRANTE 2.
-					cout<<"\nCOMPARA 2 NUIMEROS ";
+					system("clear");
+					cout<<"\nCOMPARA 2 NUMEROS ";
 					NazarenoCarolinaCompara();
 					break;
 				case 3:
-					//TRABAJO DEL INTEGRANTE 3.
+					system("clear");
 					cout<<"\n PUNTO DE VENTA ";
 					NazarenoCarolinaPuntoVenta();
 					break;
 				case 4:
-					//TRABAJO DEL INTEGRANTE 4.
+					system("clear");
 					cout<<"\n CALCULA LA EDAD ";
 					NazarenoCarolinalaedad();
 					break;
 				case 5:
-					//TRABAJO DEL INTEGRANTE 4.
+					system("clear");
 					cout<<"\n MAQUINA CUANTA MONEDAS ";
 					NazarenoCarolinaCuentaMoneda();
 					break;
@@ -262,9 +262,13 @@ int NazarenoCarolinamenu()
 
 				}
 				   flag=cin.ignore().get(); // Esta linea detiene la patalla hasta que el usuairo presione alguna tecla
-				   cout<<flag;
+				   
 	}while(op!=0);
-	
+
+        cout<<"=============================================\n";
+        cout<<"             Nazareno Carolina                \n";
+         cout<<" Gmail:carolina.nazareno.chila@utelvt.edu.ec\n";
+        cout<<"=============================================\n";	
 
 	return(0);
 
