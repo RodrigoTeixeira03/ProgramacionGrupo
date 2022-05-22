@@ -261,8 +261,8 @@ int NazarenoCarolinamenu()
 					cout<<"Quieres salir completamente del sistema (presiona ENTER) : "<<endl;
 
 				}
-				   flag=cin.ignore().get(); // Esta linea detiene la patalla hasta que el usuairo presione alguna tecla
-				   
+				                       system("read -p 'Press Enter to continue...' var");
+
 	}while(op!=0);
 
         cout<<"=============================================\n";

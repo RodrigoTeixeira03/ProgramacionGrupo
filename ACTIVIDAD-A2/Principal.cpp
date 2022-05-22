@@ -52,8 +52,8 @@ int main()
 				if(op==0){
 					cout<<"Quieres salir completamente del sistema (presiona ENTER) : "<<endl;
 
-				}
-				   flag=cin.ignore().get(); // Esta linea detiene la patalla hasta que el usuairo presione alguna tecla
+				}                    system("read -p 'Press Enter to continue...' var");
+
 				   
 	}while(op!=0);
 	
@@ -63,7 +63,7 @@ int main()
 	 cout<<"//===============================================================================\n";
          cout<<"//                 Fecha de ultima actualizacion: 2022-05-19                     \n";
 	 cout<<"//===============================================================================\n";
-         system("color 2");
+         
 	return(0);
 
 }
