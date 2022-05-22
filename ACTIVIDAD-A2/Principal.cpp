@@ -14,7 +14,7 @@ using namespace std;
 int main()
 {
    
-	int op,flag;
+	int op,flag2;
 
 	do{
 			system("clear");
@@ -52,7 +52,7 @@ int main()
 				if(op==0){
 					cout<<"Quieres salir completamente del sistema (presiona ENTER) : "<<endl;
 
-				}                    system("read -p 'Press Enter to continue...' var");
+				}           flag2=cin.ignore().get(); // Esta linea detiene la patalla hasta que el usuairo presione alguna tecla
 
 				   
 	}while(op!=0);

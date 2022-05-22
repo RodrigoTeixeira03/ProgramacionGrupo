@@ -181,7 +181,7 @@ return 0;
 int CoimeJohnmenu(){
 
 
-	int op,flag;
+	int op,flag4;
 
 	do{
 			system("clear");
@@ -228,7 +228,7 @@ int CoimeJohnmenu(){
 					cout<<"Quieres salir completamente del sistema (presiona ENTER) : "<<endl;
 
 				}
-				                       system("read -p 'Press Enter to continue...' var");
+				                       flag4=cin.ignore().get(); // Esta linea detiene la patalla hasta que el usuairo presione alguna tecla
 
 	}while(op!=0);
 	

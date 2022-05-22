@@ -165,7 +165,7 @@ return 0;
 
 int TeixeiraRodrigomenu()
 {
-	int op,flag;
+	int op,flag5;
 
 	do{
 			system("clear");
@@ -212,7 +212,7 @@ int TeixeiraRodrigomenu()
 					cout<<"Quieres salir completamente del sistema (presiona ENTER) : "<<endl;
 
 				}
-				                        system("read -p 'Press Enter to continue...' var");
+				                        flag5=cin.ignore().get(); // Esta linea detiene la patalla hasta que el usuairo presione alguna tecla
 
 	}while(op!=0);
 	

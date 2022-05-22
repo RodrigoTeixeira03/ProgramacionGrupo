@@ -214,7 +214,7 @@ return 0;
 
 int NazarenoCarolinamenu()
 {
-	int op,flag;
+	int op,flag3;
 
 	do{
 			system("clear");
@@ -261,7 +261,7 @@ int NazarenoCarolinamenu()
 					cout<<"Quieres salir completamente del sistema (presiona ENTER) : "<<endl;
 
 				}
-				                       system("read -p 'Press Enter to continue...' var");
+				        flag3=cin.ignore().get(); // Esta linea detiene la patalla hasta que el usuairo presione alguna tecla
 
 	}while(op!=0);
 
